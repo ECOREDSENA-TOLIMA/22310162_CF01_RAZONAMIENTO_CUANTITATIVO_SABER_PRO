@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
-    descripcionCurso: 'BREVE_DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Comprensión y uso de operaciones matemáticas',
+    descripcionCurso:
+      'El componente formativo aborda la comprensión y uso de operaciones matemáticas para la solución de problemas, centrándose en la interpretación de situaciones a través de diversas representaciones numéricas y simbólicas. Se estudian conceptos básicos de álgebra, cálculo, probabilidad, estadística y geometría, aplicando estrategias y métodos cuantitativos en contextos cotidianos y profesionales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,13 +36,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Interpretación de la información',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Tratamiento de la información',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Análisis de la información',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +55,62 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Planteamiento de soluciones',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Comprensión de la información',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Interpretación de resultados',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Elección de alternativa',
+        desarrolloContenidos: true,
+
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concretar el resultado',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Organización de la información',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Ejemplo práctico del proceso de información',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Solución de problemas de matemáticas básicas y propiedades',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Construcción de estrategias para resolver problemas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Solución de problemas matemáticos y geométricos',
         desarrolloContenidos: true,
       },
     ],
