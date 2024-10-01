@@ -298,6 +298,158 @@
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
       #t_6_5.h2 6.5 Áreas y volúmenes de cuerpos geométricos 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        p(data-aos="fade-right") El concepto de área ya ha sido tratado, y ahora se aborda el volumen. El volumen de un cuerpo geométrico es la medida del espacio que este ocupa, expresada en unidades cúbicas (como metros cúbicos, m³). A continuación, se presentan las fórmulas para calcular el área y el volumen de algunos de los cuerpos geométricos más comunes.
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in")
+      .row(titulo="Cubo")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema6/img27.svg', alt='Texto que describa la imagen')
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              |#[b Área:] el área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟2.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-5
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área = 4 × 𝜋 × r2]
+            li
+              i.fas.fa-angle-right
+              |#[b Volumen:] se calcula multiplicando cuatro tercios de 𝜋 por el cubo del radio.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-5
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Volumen = 4 / 3 × 𝜋 × r3]
+      .row(titulo="Prisma")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema6/img30.svg', alt='Texto que describa la imagen')
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              |#[b Área:] El área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟2.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-8
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área = Área lateral + 2 × Área de la base2]
+            li
+              i.fas.fa-angle-right
+              |#[b Volumen:] Se calcula multiplicando el área de la base por la altura del prisma.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-6
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Volumen = Área de la base × ℎ]
+      .row(titulo="Pirámide")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema6/img33.svg', alt='Texto que describa la imagen')
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              |#[b Área:] El área lateral es igual al perímetro del base, multiplicado por la apotema (altura de la cara lateral) dividido entre 2.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área lateral = ½ × Perímetro de la base × Apotema]
+              p El área total es la suma del área lateral y el área de la base.
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área total = Área lateral + Área de la base]
+            li
+              i.fas.fa-angle-right
+              |#[b Volumen:] se obtiene multiplicando un tercio del área de la base por la altura de la pirámide.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Volumen = 1 / 3 × Área de la base × ℎ]
+      .row(titulo="Cono")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema6/img37.svg', alt='Texto que describa la imagen')
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              |#[b Área:] El área lateral es la mitad de la circunferencia de la base, multiplicado por la apotema.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área lateral = 1 / 2 × Circunferencia de la base × Apotema]
+              p El área total es la suma del área lateral y el área de la base.
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área total = Área lateral + Área de la base]
+            li
+              i.fas.fa-angle-right
+              |#[b Volumen:] Se calcula multiplicando un tercio del área de la base por la altura del cono.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Volumen = 1 / 3 × Área de la base × h]
+      .row(titulo="Cilindro")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema6/img41.svg', alt='Texto que describa la imagen')
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              |#[b Área:] El área lateral se obtiene multiplicando la circunferencia de la base por la altura.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área lateral = Circunferencia de la base × h]
+              p El área total es la suma del área lateral y el área de la base.
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área total = Área lateral + 2 × Área de la base]
+            li
+              i.fas.fa-angle-right
+              |#[b Volumen:] Se calcula multiplicando el área de la base por la altura del cilindro.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-10
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Volumen = Área de la base × h]
+      .row(titulo="Esfera")
+        .col-md-6
+          figure
+            img(src='@/assets/curso/temas/tema6/img45.svg', alt='Texto que describa la imagen')
+        .col-md-6.mb-4.mb-md-0
+          ul.lista-ul
+            li
+              i.fas.fa-angle-right
+              |#[b Área:] El área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟2.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-5
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Área = 4 × 𝜋 × r2]
+            li
+              i.fas.fa-angle-right
+              |#[b Volumen:] Se calcula multiplicando cuatro tercios de 𝜋 por el cubo del radio.
+              p 
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-5
+                  .tarjeta.p-3.divgeome
+                    p.mb-0.text-center #[b Volumen = 4 / 3 × 𝜋 × r3]
 
 </template>
 
