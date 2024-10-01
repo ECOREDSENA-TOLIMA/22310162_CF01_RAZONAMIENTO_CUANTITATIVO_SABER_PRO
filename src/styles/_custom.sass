@@ -1,18 +1,396 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    width: 50px
+    animation: scale 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 27%
+    right: 75%
   &-2
+    width: 50px
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    bottom: 50%
+    left: 70%
+  &-3
+    width: 50px
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    bottom: 15%
+    left: 5%
+  &-4
+    width: 90px
+    animation: scale 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 25%
+    right: 15%
+  &-5
+    width: 120px
+    animation: rotation 8s infinite linear
+    position: absolute
+    bottom: 13%
+    right: 33%
 
+@-webkit-keyframes rotation 
+  from 
+    -webkit-transform: rotate(0deg)  
+  to 
+    -webkit-transform: rotate(359deg)
 
 @keyframes float1
   0%
     transform: translateY(20px)
+
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+
+  100%
+    transform: translateX(0px)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+
+  100%
+    transform: scale(1.2)
+
+.tarjeta.color-primario
+  background-color: #C7E3D7
+
+//CONTROLAR LAS IMAGENES EN MOVIL
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+  .mts
+    margin-top: 0.25rem  
+  .tarjeta--boton 
+    background-color: #F3E0E9
+    height: 370px
+ 
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+  .mts
+    margin-top: -1.35rem
+  .tarjeta--boton 
+    background-color: #F3E0E9
+.cajon.color-primario
+  background-color: #C7E3D7
+.cajon.color-secundario
+  background-color: #D0DBF8
+
+//Tema 1
+
+
+.bg--gradientBlue
+  background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.dialogo.color-primario .dialogo__words__word
+  color: #3c7792 !important
+
+.bg1
+  background-image: url(../assets/curso/temas/tema1/fondoslyder.png) !important
+  margin-inline: -3rem !important
+  padding: 3rem
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+//Tema 2
+.slyder-b-img
+  background-image: url(../assets/curso/temas/tema2/imgslyder.png) !important
+
+.slyder__btn
+  background-color: $color-acento-botones
+  color:black
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #EEAC3A !important
+
+.acordion__accion__btn--a
+  background-color: #EEAC3A !important
+
+.acordion__activo
+  background-color: #C7E3D7 !important
+
+.tarjeta--azul
+    background-color: #DCE1EC
+
+.acordion__accion__btn--b
+  border: $color-acento-botones solid 1px;
+  background-color: $color-acento-botones
+  color: black !important
+
+//Tema 3
+.tabs-b__tab:hover
+  background-color: #DCE1EC
+
+.tabs-b__tab--active
+    background-color: #FFF5E7
+    border-top: 5px solid !important
+    border-bottom: none
+.py-99
+  background-color: #FFF5E7
+.py-4
+  //background-color: #FFF5E7
+  padding-top: 1.5rem !important
+  padding-bottom: 1.5rem !important
+
+.tarjeta.color-primario
+  background-color: #11462E
+
+.tarjeta.color-secundario
+  background-color: #2D4587
+
+.tarjeta.color-acento-contenido
+  background-color: #4A4C4E
+
+.tarjeta.color-secundario
+  color: #fff !important
+
+
+//- tarjeta de deslizamiento arriba abajo 
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    height: 100%
+    left: 0
+    bottom: -82%
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      bottom: -40%
+      @media (max-width: $bp-max-xl)
+        bottom: -35%
+      @media (max-width: $bp-max-lg)
+        bottom: -30%
+      @media (max-width: $bp-max-md)
+        bottom: -35%
+      @media (max-width: $bp-max-xs)
+        bottom: 0
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+
+//// Tarjetas --------------------------------------
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-color: #F6F6F6
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)
+      h4, p
+        color: white 
+      .bottomCircle
+        &::before
+          background-color: #FED981
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #DFFAFF
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--avatarHorizontal2
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #7F4FC7
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #E7EFFB
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+.crd--first
+  &::before 
+    background-color: #DFFAFF !important
+.crd--last
+  &::before 
+    background-color: #E7EFFB !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+i.fas.fa-calculator
+  color: $color-primario
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+//Tema 4
+//titulos
+.titulo-decorativo
+  position: relative
+  display: inline-flex
+  align-items: center
+  &::before
+    content: ""
+    position: absolute
+    background-color: #D3F4FE
+    top: 5px
+    bottom: 2px
+    left: 10px
+    right: 0
+    z-index: 0
+    border-radius: 20px
+    border-bottom: 4px solid $white
+  .cont-text 
+    position: relative
+    h3
+      margin: 0
+      padding: 1.2rem 0 
+      margin-left: 0.5rem
+      margin-right: 1.5rem
+      @media screen and (max-width: $bp-max-xs)
+        margin-right: 0.5rem
+        padding: 1rem 0
+
+  .cont-figura
+    //-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    //-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    //box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
+    position: relative
+    display: inline-flex
+    border-radius: 35% 0% 0% 35%
+    width: 40px
+    height: 40px
+    min-width: 50px
+    min-height: 50px
+    justify-content: center
+    align-items: center
+    align-content: center
+    background-color: #D3F4FE
+    img
+      max-width: 35px
+      margin-top: 0.2rem
+
+//Tema 5
+.bg-img
+  background-image: url(../assets/curso/temas/tema5/imgfondo.png) !important
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  border: 2px solid #11462E
+  background-color: #ffd87e
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  border: 1px solid #11462E
+  background-color: #ffd87e
+.slyder-a__bullets__item--active
+  background-color: #ffd87e
+  border-color: #11462E
+.divformu
+  background-color: #C7E3D7
+  color: black !important
+li b
+  color: #11462E
+
+//Tema 6
+.color-cuadro
+  background-color: white
+  color:black
+.tarjeta--tabla
+    background-color: #C7E3D7
+.tarjeta--tabla:nth-child(even)
+    background-color: #D0DBF8
+
+.bg-img-tarj
+  background-image: url(../assets/curso/temas/tema6/imgfondo.png) !important
+  h4, p
+    color:black !important
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #DCE1EC
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #C7E3D7
+
+.tabs-a
+  .tarjeta.color-secundario 
+    background-color: #C7E3D7
+    border: solid 1px #196442
+  p,li,b, i
+    color: black !important
+.tabs-a__tab
+    background-color: #DCE1EC
+
+.divgeome
+  background-color: #ffffff
+  color: black !important
