@@ -78,18 +78,18 @@
                 span  #[i  Casa pintada ]
               .row.justify-content-center.align-items-center.mb-5
                   .col-lg-6
-                  .tabla-a.color-acento-contenido.mb-5
+                  .tabla.mb-5
                     table
                       thead
                         tr
-                          th Litros
-                          td 1
-                          td X
+                          th(style="background-color:#6FD9FB;").text-center Litros
+                          td(style="background-color:#F6F6F6;border:solid 1px #AFAFAF").text-center 1
+                          td(style="background-color:#F6F6F6;border:solid 1px #AFAFAF").text-center X
                       tbody
                         tr
-                          tH Metros
-                          td 6
-                          td 480
+                          th(style="background-color:#A8E8FC;").text-center Metros#[sup 2]
+                          td(style="background-color:#ffffff;border:solid 1px #AFAFAF").text-center 6
+                          td(style="background-color:#ffffff;border:solid 1px #AFAFAF").text-center 480
               ul.lista-ul
                 li
                   i.fas.fa-angle-right

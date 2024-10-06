@@ -232,27 +232,19 @@ export default {
   },
   complementario: [
     {
-      tema: 'Ejemplo práctico del proceso de información',
+      tema: '4. Ejemplo práctico del proceso de información',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2020). SENA - La Regla de 3 [Proporcionalidad] - Fácil y Rápido [Video].',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2020). SENA - La Regla de 3 [Proporcionalidad] - Fácil y Rápido [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=jBy0s72XiAo',
     },
     {
-      tema: 'Solución de problemas matemáticos y geométricos',
+      tema: '7. Solución de problemas matemáticos y geométricos',
       referencia:
-        'Ministerio de Educación Nacional de Colombia. (2023). Razonamiento Cuantitativo Saber Pro y Saber TyT [PDF].',
+        'Ministerio de Educación Nacional de Colombia. (2023). Modulo Razonamiento Cuantitativo Saber Pro y Saber TyT [PDF].',
       tipo: 'Página web',
       link:
-        'file:///E:/Nueva%20carpeta/Descargue%20AQU%C3%8D%20el%20marco%20de%20referencia%20-%20Razonamiento%20Cuantitativo%20Saber%20Pro%20(1).pdf',
-    },
-    {
-      tema: 'Solución de problemas matemáticos y geométricos',
-      referencia:
-        'Guía de orientación Saber Pro. Módulo de competencias genéricas. (2024). Guía de orientación Saber Pro: Módulo de competencias genéricas.',
-      tipo: 'Página web',
-      link:
-        'https://www.icfes.gov.co/documents/39286/1452156/26+Diciembre_GDO+Mo%CC%81dulos+Gene%CC%81ricos+Saber+Pro+2024-1.pdf',
+        'https://www.icfes.gov.co/wp-content/uploads/2024/09/Descargue-AQUI%CC%81-el-marco-de-referencia-Razonamiento-Cuantitativo-Saber-Pro.pdf',
     },
   ],
   glosario: [
@@ -309,26 +301,61 @@ export default {
   referencias: [
     {
       referencia:
-        'Blanco Nieto, L. J., Cárdenas Lizarazo, J. A., & Caballero Carrasco, A. (2015). La resolución de problemas de Matemáticas.',
-      link:
-        'file:///E:/Nueva%20carpeta/La%20resoluci%C3%B3n%20de%20problemas%20de%20Matem%C3%A1ticas%20en%20la%20formaci%C3%B3n%20inicial%20de%20profesores%20de%20Primaria.pdf',
+        'Blanco Nieto, L. J., Cárdenas Lizarazo, J. A., & Caballero Carrasco, A. (2015). La resolución de problemas de Matemáticas. Colección manuales UEX – 98. [PDF].',
+      link: '',
     },
     {
       referencia: 'Escudero, J. (s.f.). Resolución de problemas.',
-      link: 'http://platea.pntic.mec.es/jescuder/prob_int.htm#0',
+      link: '',
     },
     {
-      referencia: 'Estrategia de estudio (Método POLYA). (n.d.).',
+      referencia: 'Estrategia de estudio (Método POLYA). (n.d.). YouTube.',
       link: 'https://www.youtube.com/watch?v=-919CQtH2H2w',
     },
     {
       referencia:
-        'Grupo Cero. (1984). De 12 a 16. Un currículum de Matemáticas. Valencia España: Mestral Libros.',
+        'Fernández, S. (1992). Prensa y educación matemática. Madrid, España: Síntesis.',
+      link: '',
+    },
+    {
+      referencia:
+        'Grupo Cero. (1984). De 12 a 16. Un currículum de Matemáticas. Valencia, España: Mestral Libros.',
+      link: '',
+    },
+    {
+      referencia:
+        'Guzmán, M. (1984). Para pensar mejor. Barcelona, España: Labor.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hemmerling, E. (2002). Geometría elemental. México, D.F.: Limusa.',
       link: '',
     },
     {
       referencia:
         'Hofstadter, D. (1979). Gödel, Escher, Bach: Un eterno y grácil bucle. Nueva York, Estados Unidos: Basic Books.',
+      link: '',
+    },
+    {
+      referencia:
+        'Icfes. (2013). Módulo de razonamiento cuantitativo SABER PRO 2013 - 1.',
+      link:
+        'http://www.tecnar.edu.co/sites/default/files/pdfs/M%C3%B3dulo-RAZONAMIENTO%20CUANTITATIVO.pdf ',
+    },
+    {
+      referencia:
+        'Módulo Razonamiento Cuantitativo. Niveles de desempeño. (2023).',
+      link: '',
+    },
+    {
+      referencia:
+        'Polya, G. (1965). Cómo plantear y resolver problemas. México, D.F.: Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ruiz, J. (2019). Métodos cuantitativos para la toma de decisiones. Madrid: Ediciones Díaz de Santos.',
       link: '',
     },
   ],
@@ -337,7 +364,7 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Milady Tatiana Villamil Castellanos',
           cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
@@ -352,9 +379,26 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Nombre_rol',
-          centro: 'Nombre_centro_formación',
+          nombre: 'Hugo García Calderón',
+          cargo: 'Experto temático',
+          centro: 'Centro de Diseño Tecnológico Industrial - Regional Valle',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Claudia Milena Hernández Naranjo',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Viviana Herrera Quiñonez',
+          cargo: 'Evaluador instruccional',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
@@ -362,18 +406,33 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre_responsable',
+          nombre: 'Jose Yobani Penagos Mora',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Oscar Ivan Uribe Ortiz',
+          cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Animación y producción audiovisual',
+          nombre: 'Veimar Celis Melendez',
+          cargo: 'Desarrollador <em>Full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Diego Fernando Velasco Güiza',
+          cargo: 'Desarrollador <em>Full stack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animador y productor audiovisual',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -382,18 +441,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          nombre: 'Jorge Eduardo Rueda Peña',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Nombre_responsable',
-          cargo: 'Validación de recursos educativos digitales',
+          nombre: 'Jorge Bustos',
+          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],

@@ -20,7 +20,7 @@
 
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
       #t_7_1.h2 7.1 Problema de probabilidad
-    .row.bg--gradientBlue.mb-5
+    .row.bg--gradientBlue.mb-4
       .col-12
         .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
           .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="zoom-in")
@@ -59,15 +59,15 @@
       #t_7_2.h2 7.2 Problema cuantitativo de álgebra
     .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
         .col-lg-12(data-aos="fade-right")
-          ul.lista-ul
-            li
-              i.fas.fa-angle-right
-              |#[b Pregunta:] si tenemos dos números tales que su suma es igual a 34, y el doble del mayor excede en 20 al menor, ¿cuáles son esos números?
-            li
-              i.fas.fa-angle-right
-              |#[b Solución:] primero, se identifican las incógnitas del problema. Nos piden determinar dos números, uno mayor que el otro. Utilizaremos las letras a y b para representar las incógnitas, y como uno es mayor que el otro, diremos que a > b.
+    ul.lista-ul
+      li(data-aos="fade-right")
+        i.fas.fa-angle-right(style="color:#6FD9FB")
+        |#[b Pregunta:] si tenemos dos números tales que su suma es igual a 34, y el doble del mayor excede en 20 al menor, ¿cuáles son esos números?
+      li(data-aos="fade-right")
+        i.fas.fa-angle-right(style="color:#6FD9FB")
+        |#[b Solución:] primero, se identifican las incógnitas del problema. Nos piden determinar dos números, uno mayor que el otro. Utilizaremos las letras a y b para representar las incógnitas, y como uno es mayor que el otro, diremos que a > b.
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3.mt-4
       .col-lg-6
         .tarjeta.tarje-azul.p-4.mb-4
           p Se plantean dos ecuaciones a partir de la información dada:
@@ -112,7 +112,7 @@
                 p.mb-0.text-center #[b b = 16]
           p Por lo tanto, los números son a = 18 y b = 16.
 
-      .col-lg-4
+      .col-lg-4.d-lg-flex.d-none
         figure
           img(src='@/assets/curso/temas/tema7/img5.svg', alt='Imagen decorativa')
 
@@ -135,12 +135,12 @@
             .col-lg-6
             .tabla-a.color-acento-contenido
               table
-                thead
+                thead(style="background-color:#6FD9FB")
                   tr
                     th Bus tipo I
                     th Bus tipo II
                 tbody
-                  tr
+                  tr(style="background-color:#F6F6F6")
                     td Numero de sillas: 36
                     td Numero de sillas: 48
                   tr 
@@ -202,13 +202,13 @@
                       .col-lg-4
                         .tarjeta.p-1.divgeomeverde
                           p.mb-0.text-center #[b C = 𝜋 × 6cm = 6 𝜋 cm]
-                    p El área del círculo se calcula con la fórmula A = 𝜋 × r2, donde r es el radio. Como el diámetro es 6 cm, el radio es r = 3cm:
+                    p El área del círculo se calcula con la fórmula A = 𝜋 × r#[sup 2], donde r es el radio. Como el diámetro es 6 cm, el radio es r = 3cm:
                     p 
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-4
                         .tarjeta.p-1.divgeomeverde
-                          p.mb-0.text-center #[b A = 𝜋 × 32 = 9𝜋 cm2]
-                    p Por lo tanto, la circunferencia es 6𝜋 cm y el área es 9𝜋 cm2.
+                          p.mb-0.text-center #[b A = 𝜋 × 3#[sup 2] = 9𝜋 cm#[sup 2]]
+                    p Por lo tanto, la circunferencia es 6𝜋 cm y el área es 9𝜋 cm#[sup 2].
 
 
     separador 
@@ -218,47 +218,41 @@
     
     .row.justify-content-center.align-items-center.mb-3(style="margin-inline:3em;")
       .col-lg-12(data-aos="fade-right")
-        ul.lista-ul
-          li
-            i.fas.fa-angle-right
-            |#[b Pregunta:] un cubo tiene una superficie total de 360 cm². ¿Qué volumen tiene este cubo?
-          li
-            i.fas.fa-angle-right
-            |#[b Solución:] la superficie total del cubo es la suma de las áreas de sus seis caras, cada una de las cuales es un cuadrado. Si la longitud de un lado del cubo es x, entonces:
+    ul.lista-ul
+      li
+        i.fas.fa-angle-right(style="color:#6FD9FB")
+        |#[b Pregunta:] un cubo tiene una superficie total de 360 cm#[sup 2]. ¿Qué volumen tiene este cubo?
+      li
+        i.fas.fa-angle-right(style="color:#6FD9FB")
+        |#[b Solución:] la superficie total del cubo es la suma de las áreas de sus seis caras, cada una de las cuales es un cuadrado. Si la longitud de un lado del cubo es x, entonces:
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-6
+      .col-lg-4
         
           p
           .row.justify-content-center.align-items-center.mb-3
-            .col-lg-8
+            .col-lg-12
               .tarjeta.p-1.divgeomeverde
-                p.mb-0.text-center #[b 6x2 = 360 cm2]
-          p Al dividir por 6:
+                p.mb-0.text-center #[b 6x#[sup 2] = 360 cm#[sup 2]]
+          p.text-center Al dividir por 6:
           p
           .row.justify-content-center.align-items-center.mb-3
-            .col-lg-8
+            .col-lg-12
               .tarjeta.p-1.divgeomeverde
-                p.mb-0.text-center #[b x2 = 60 cm2]
-          p Al despejar a:
+                p.mb-0.text-center #[b x#[sup 2] = 60 cm#[sup 2]]                
+          p.text-center Al tomar la raíz cuadrada de ambos lados:
           p
           .row.justify-content-center.align-items-center.mb-3
-            .col-lg-8
-              .tarjeta.p-1.divgeomeverde
-                p.mb-0.text-center #[b x2 = 60 cm2]                
-          p Al tomar la raíz cuadrada de ambos lados:
-          p
-          .row.justify-content-center.align-items-center.mb-3
-            .col-lg-8
+            .col-lg-12
               .tarjeta.p-1.divgeomeverde
                 p.mb-0.text-center #[b x = 5 cm]
-          p El volumen del cubo se calcula como:
+          p.text-center El volumen del cubo se calcula como:
           p
           .row.justify-content-center.align-items-center.mb-3
-            .col-lg-8
+            .col-lg-12
               .tarjeta.p-1.divgeomeverde
-                p.mb-0.text-center #[b V = x3 = 53 = 125 cm³]
-          p Por lo tanto, el volumen del cubo es 125 cm³.
+                p.mb-0.text-center #[b V = x#[sup 3] = 5#[sup 3] = 125 cm#[sup 3]]
+          p.text-center Por lo tanto, el volumen del cubo es 125 cm#[sup 3].
 
       .col-lg-4
         figure

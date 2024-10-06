@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Planteamiento de soluciones
+      h1 Elección de alternativa
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
@@ -14,8 +14,8 @@
 
     TabsB.color-acento-botones.mb-5
       .py-4.py-99.py-md-5(titulo="Definición de alternativas" :icono="require('@/assets/curso/temas/tema3/img1.svg')")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
+        .row.justify-content-center.align-items-center
+          .col-lg-4.col-8.mb-lg-0.mb-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img6.png', alt='Imagen decorativa')
 
@@ -25,7 +25,7 @@
           
       .py-4.py-99.py-md-5(titulo="Establecimiento de criterios" :icono="require('@/assets/curso/temas/tema3/img2.svg')")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
+          .col-lg-4.col-8.mb-lg-0.mb-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img7.png', alt='Imagen decorativa')
 
@@ -35,7 +35,7 @@
           
       .py-4.py-99.py-md-5(titulo="Evaluación de opciones" :icono="require('@/assets/curso/temas/tema3/img3.svg')")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
+          .col-lg-4.col-8.mb-lg-0.mb-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img8.png', alt='Imagen decorativa')
 
@@ -45,7 +45,7 @@
           
       .py-4.py-99.py-md-5(titulo="Selección de la mejor alternativa" :icono="require('@/assets/curso/temas/tema3/img4.svg')")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
+          .col-lg-4.col-8.mb-lg-0.mb-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img9.png', alt='Imagen decorativa')
 
@@ -55,41 +55,41 @@
           
       .py-4.py-99.py-md-5(titulo="Aplicación de herramientas y procedimientos" :icono="require('@/assets/curso/temas/tema3/img5.svg')")
         .row.justify-content-center.align-items-center.mb-5
-          .col-md-4
+          .col-lg-4.col-8.mb-lg-0.mb-4
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
 
           .col-lg-7
             h4
-            p implementar la alternativa seleccionada utilizando las herramientas y procedimientos adecuados. Esto incluye realizar cálculos, aplicar fórmulas y seguir pasos específicos para llegar a una solución precisa.
+            p Implementar la alternativa seleccionada utilizando las herramientas y procedimientos adecuados. Esto incluye realizar cálculos, aplicar fórmulas y seguir pasos específicos para llegar a una solución precisa.
           
 
 
     separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      #t_3_1.h2 3.1 Comprensión de la información
+      #t_3_1.h2 3.1 Concretar el resultado
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
         p En esta fase, se define y selecciona la mejor alternativa para resolver el problema, utilizando las herramientas y procedimientos identificados previamente. Para asegurar una elección efectiva, se deben seguir estos pasos:
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
+      .col-lg.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img11.svg', alt='Imagen Decorativa')
         h4.text-center Evaluación de alternativas
         p Considerar las distintas opciones disponibles para abordar el problema. Evaluar cada alternativa en función de su eficacia, precisión y adecuación al contexto del problema.
-      .col-md.tarjeta.color-secundario.p-5
+      .col-lg.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
               img(src='@/assets/curso/temas/tema3/img12.svg', alt='Imagen Decorativa')
         h4.text-center Aplicación de herramientas y procedimientos
         p Utilizar las herramientas matemáticas y operativas seleccionadas para implementar la alternativa elegida. Esto incluye aplicar fórmulas, realizar cálculos y seguir procedimientos establecidos para obtener resultados precisos.
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-lg.tarjeta.color-acento-contenido.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure
@@ -99,7 +99,7 @@
     separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      #t_3_2.h2 3.2 Interpretación de resultados
+      #t_3_2.h2 3.2 Organización de la información
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")

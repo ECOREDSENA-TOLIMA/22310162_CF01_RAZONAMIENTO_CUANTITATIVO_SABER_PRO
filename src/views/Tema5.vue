@@ -22,7 +22,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .cajon.color-secundario.p-4.mb-3
-          p Una perspectiva de solución: un problema es una situación que presenta un reto o una pregunta que necesita ser resuelta, y en su solución, se debe determinar el método más adecuado para alcanzar la respuesta deseada.
+          p.mb-0 Una perspectiva de solución: un problema es una situación que presenta un reto o una pregunta que necesita ser resuelta, y en su solución, se debe determinar el método más adecuado para alcanzar la respuesta deseada.
     separador 
 
     .titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -35,38 +35,38 @@
     .tarjeta.tarjeta--azul.bg-img.p-4.mb-5(data-aos="zoom-in")
         SlyderA(tipo='b')
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Comprensión del problema
               p El primer paso esencial en la resolución de problemas es una comprensión clara y precisa del problema planteado. Esto implica leer detenidamente el enunciado, identificar los datos relevantes, y entender lo que se solicita. Es útil parafrasear el problema o explicarlo en palabras propias para asegurar su comprensión.
-            .col-md-6
+            .col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema5/img2.png', alt='')
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Planificación de la solución
               p Una vez que se entiende el problema, es necesario desarrollar un plan de acción. Este plan puede involucrar la selección de las operaciones matemáticas adecuadas, la creación de diagramas o gráficos, o la descomposición del problema en pasos más pequeños y manejables. Aquí se utilizan los conocimientos previos para formular una estrategia de resolución.
-            .col-md-6
+            .col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema5/img3.png', alt='')
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Ejecución del plan
-              p con el plan en mente, el siguiente paso es ponerlo en práctica. Este proceso incluye realizar los cálculos necesarios, aplicar fórmulas, y utilizar herramientas matemáticas. Es importante proceder con cuidado para evitar errores y revisar cada paso del proceso.
-            .col-md-6
+              p Con el plan en mente, el siguiente paso es ponerlo en práctica. Este proceso incluye realizar los cálculos necesarios, aplicar fórmulas, y utilizar herramientas matemáticas. Es importante proceder con cuidado para evitar errores y revisar cada paso del proceso.
+            .col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema5/img4.png', alt='')
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Verificación de la solución
-              p después de haber obtenido una solución, es crucial verificarla. Esto puede implicar revisar los cálculos, considerar si la respuesta tiene sentido en el contexto del problema, o comprobar si se han seguido correctamente todos los pasos del plan inicial. En algunos casos, es útil resolver el problema por un método diferente para confirmar la exactitud del resultado.
-            .col-md-6
+              p Después de haber obtenido una solución, es crucial verificarla. Esto puede implicar revisar los cálculos, considerar si la respuesta tiene sentido en el contexto del problema, o comprobar si se han seguido correctamente todos los pasos del plan inicial. En algunos casos, es útil resolver el problema por un método diferente para confirmar la exactitud del resultado.
+            .col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema5/img5.png', alt='')
           .row
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Reflexión y mejora
-              p finalmente, es beneficioso reflexionar sobre el proceso utilizado para resolver el problema. ¿Qué pasos fueron efectivos?, y ¿Dónde hubo dificultades? Reflexionar sobre estas preguntas permite mejorar las habilidades de resolución de problemas y aplicar estos aprendizajes en futuras situaciones.
-            .col-md-6
+              p Finalmente, es beneficioso reflexionar sobre el proceso utilizado para resolver el problema. ¿Qué pasos fueron efectivos?, y ¿Dónde hubo dificultades? Reflexionar sobre estas preguntas permite mejorar las habilidades de resolución de problemas y aplicar estos aprendizajes en futuras situaciones.
+            .col-lg-6
               figure
                 img(src='@/assets/curso/temas/tema5/img6.png', alt='')
     .row.justify-content-center.align-items-center.mb-5
@@ -85,45 +85,45 @@
     .tarjeta.tarjeta--gris.bg-img.p-4.mb-5(data-aos="zoom-in")
       LineaTiempoC.color-secundario(text-small)
         .row(titulo="a")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Un problema no es una adivinanza
             p A diferencia de las adivinanzas, los problemas matemáticos requieren un enfoque lógico y estructurado. No se trata de hacer conjeturas o suposiciones al azar, sino de aplicar un razonamiento cuidadoso y utilizar el conocimiento previo para encontrar una solución precisa. Este aspecto resalta la importancia del pensamiento crítico y analítico en la resolución de problemas.
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
-        .row(titulo="b")
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center.align-items-center(titulo="b")
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Aplicación del conocimiento matemático
-            p todo problema matemático tiene un campo específico de aplicación, ya sea en álgebra, geometría, aritmética, o cualquier otra rama de las matemáticas. Este campo define los conceptos y principios que se deben utilizar para resolver el problema. La correcta identificación de estos conceptos es crucial para seleccionar los métodos y herramientas adecuados, como el uso de algoritmos, fórmulas, o procedimientos específicos.
-          .col-md-6
+            p Todo problema matemático tiene un campo específico de aplicación, ya sea en álgebra, geometría, aritmética, o cualquier otra rama de las matemáticas. Este campo define los conceptos y principios que se deben utilizar para resolver el problema. La correcta identificación de estos conceptos es crucial para seleccionar los métodos y herramientas adecuados, como el uso de algoritmos, fórmulas, o procedimientos específicos.
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img7.png', alt='Imagen decorativa')
         .row(titulo="c")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Fomento de capacidades cognitivas
             P Resolver un problema matemático implica un desafío que estimula el desarrollo de diversas capacidades cognitivas. Estas incluyen la capacidad de razonamiento lógico, la habilidad para pensar abstractamente, y la competencia para establecer conexiones entre diferentes conceptos matemáticos. Este reto no solo fortalece el conocimiento matemático, sino que también promueve habilidades de pensamiento crítico y resolución de problemas en general.
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img8.png', alt='Imagen decorativa')
         .row(titulo="d")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Atracción y motivación
             p Un buen problema matemático suele tener un atractivo intrínseco que motiva a los estudiantes a enfrentarlo. Este atractivo puede surgir de la curiosidad que genera el planteamiento del problema, la relevancia que tiene para el contexto del estudiante, o la satisfacción que proviene de encontrar una solución correcta. Esta motivación es esencial para mantener el interés y el compromiso durante el proceso de resolución.
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen decorativa')
         .row(titulo="e")
-          .col-md-6.mb-4.mb-md-0desde la primera lectura, un problema matemático suele revelar su nivel de dificultad, lo que permite al estudiante anticipar los desafíos que enfrentará. Este compromiso inicial ayuda a preparar una estrategia adecuada, determinar los recursos necesarios y gestionar el tiempo y esfuerzo que se invertirá en la solución. Comprender el nivel de dificultad también es útil para ajustar las expectativas y evitar la frustración.
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Compromiso con el nivel de dificultad
             p Desde la primera lectura, un problema matemático suele revelar su nivel de dificultad, lo que permite al estudiante anticipar los desafíos que enfrentará. Este compromiso inicial ayuda a preparar una estrategia adecuada, determinar los recursos necesarios y gestionar el tiempo y esfuerzo que se invertirá en la solución. Comprender el nivel de dificultad también es útil para ajustar las expectativas y evitar la frustración.
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen decorativa')
         .row(titulo="f")
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Satisfacción al resolverlo
             p Uno de los aspectos más gratificantes de resolver un problema matemático es la sensación de logro que se experimenta al llegar a una solución correcta. Esta satisfacción no solo refuerza el aprendizaje, sino que también aumenta la confianza del estudiante en sus habilidades matemáticas. Además, resolver problemas exitosamente puede inspirar a los estudiantes a enfrentar nuevos desafíos con una actitud positiva y proactiva. 
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/img11.png', alt='Imagen decorativa')
     
@@ -247,7 +247,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="zoom-in")
         figure
-          img(src='@/assets/curso/temas/tema5/img14.png', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema5/img15.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-right")
         listul.lista-ul

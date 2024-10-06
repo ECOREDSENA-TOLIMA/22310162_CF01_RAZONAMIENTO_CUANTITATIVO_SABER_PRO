@@ -8,11 +8,11 @@
       h1 Construcción de estrategias para resolver problemas
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7
+      .col-lg-7.order-lg-1.order-2
         p(data-aos="fade-right") En este apartado, se explorará la construcción de estrategias eficaces para resolver problemas matemáticos. Inicialmente, se presentarán las características fundamentales del problema, lo que permitirá establecer pautas claras para abordar su solución. Posteriormente, se estudiará el proceso que facilita el planteamiento, desarrollo y obtención de resultados, sirviendo como referencia para definir tu propia estrategia al enfrentar ejercicios, problemas y preguntas en el ámbito de la matemática básica.
         p(data-aos="fade-right") Además, se abordará el método cuantitativo y su importancia en la resolución de problemas básicos de estadística, modelos matemáticos y análisis descriptivo. También, se explorará cómo calcular el área de algunas figuras geométricas y el volumen de ciertos sólidos, conocimientos esenciales para la resolución de problemas relacionados con estas áreas.
          
-      .col-lg-5.mb-lg-0.mb-4(data-aos="zoom-in")
+      .col-lg-5.mb-lg-0.order-lg-2.order-1.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema6/img1.png', alt='Imagen decorativa')
     
@@ -42,7 +42,7 @@
           .tarjeta.color-cuadro.p-3(x="68.5%" y="83%" numero="+")
             p Practicar con problemas similares utilizando números naturales para reforzar el algoritmo y mejorar la habilidad en la resolución de problemas.
           
-      .col-lg-10.movil
+      .col-lg-10.movil.mb-3
         figure
           img(src='@/assets/curso/temas/tema6/img2_1.svg', alt='')
     
@@ -142,19 +142,19 @@
           img(src='@/assets/curso/temas/tema6/img12.png', alt='Imagen decorativa')
       .col-lg-6.order-2(data-aos="fade-right")
          LineaTiempoD.color-acento-botones
-          p.text-small(numero="1" titulo="Identificación y definición del problema")
+          p(numero="1" titulo="Identificación y definición del problema")
             |Formular el problema de manera clara, estableciendo objetivos medibles y determinando la situación inicial.
-          p.text-small(numero="2" titulo="Desarrollo del modelo")
+          p(numero="2" titulo="Desarrollo del modelo")
             |Representar la realidad empírica de forma simplificada para facilitar el análisis.
-          p.text-small(numero="3" titulo="Adquisición de datos")
+          p(numero="3" titulo="Adquisición de datos")
             |Recolectar y analizar los datos necesarios para realizar estimaciones.
-          p.text-small(numero="4" titulo="Desarrollo y validación del modelo")
+          p(numero="4" titulo="Desarrollo y validación del modelo")
             |Probar el modelo hasta encontrar una solución adecuada.
-          p.text-small(numero="5" titulo="Comprobación de la solución")
+          p(numero="5" titulo="Comprobación de la solución")
             |Verificar si la solución es correcta y ajustada a los parámetros del problema.
-          p.text-small(numero="6" titulo="Análisis de los resultados")
+          p(numero="6" titulo="Análisis de los resultados")
             |Revisar los resultados para detectar posibles errores o inconsistencias. 
-          p.text-small(numero="7" titulo="Implementación y seguimiento")
+          p(numero="7" titulo="Implementación y seguimiento")
             |Aplicar la solución y monitorear el proceso para asegurar su eficacia    
     
     .row.justify-content-center.align-items-center.mb-5
@@ -170,10 +170,10 @@
         p(data-aos="fade-right") El perímetro de una figura geométrica plana es la suma de las longitudes de todos sus lados. Por otro lado, el área se refiere a la medida de la superficie encerrada por la figura geométrica. A continuación, se detallan las fórmulas básicas para calcular el área y el perímetro de las principales figuras geométricas.
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-10(data-aos="zoom-in")
+      .col-lg-12(data-aos="zoom-in")
         TabsA.color-acento-botones
           .tarjeta.color-secundario.p-4(titulo="Cuadrado")            
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
                 ul.lista-ul
                   li
@@ -183,7 +183,7 @@
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-5
                         .tarjeta.p-3.divgeome
-                          p.mb-0.text-center #[b Área = L × L = L2]
+                          p.mb-0.text-center #[b Área = L × L = L#[sup 2]]
                   li
                     i.fas.fa-angle-right
                     |#[b Perímetro:] es la suma de los cuatro lados del cuadrado.
@@ -192,11 +192,11 @@
                       .col-lg-5
                         .tarjeta.p-3.divgeome
                           p.mb-0.text-center #[b Perímetro = 4 × L]
-              .col-lg-4
+              .col-lg-4.col-8
                 figure
                   img(src='@/assets/curso/temas/tema6/img13.svg', alt='Imagen decorativa')
           .tarjeta.color-secundario.p-4(titulo="Rectángulo")            
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
                 ul.lista-ul
                   li
@@ -206,21 +206,21 @@
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-5
                         .tarjeta.p-3.divgeome
-                          p.mb-0.text-center #[b Área = L1 × L2]
+                          p.mb-0.text-center #[b Área = L#[sub 1] × L#[sub 2]]
                   li
                     i.fas.fa-angle-right
                     |#[b Perímetro:] es la suma de las longitudes de sus cuatro lados.
                     p 
                     .row.justify-content-center.align-items-center.mb-3
-                      .col-lg-5
+                      .col-lg-6
                         .tarjeta.p-3.divgeome
-                          p.mb-0.text-center #[b Perímetro = 2 × (L1 + L2)]
-              .col-lg-4
+                          p.mb-0.text-center #[b Perímetro = 2 × (L#[sub 1] + L#[sub 2])]
+              .col-lg-4.col-8
                 figure
                   img(src='@/assets/curso/temas/tema6/img16.svg', alt='Imagen decorativa')
             
           .tarjeta.color-secundario.p-4(titulo="Triángulo")            
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
                 ul.lista-ul
                   li
@@ -238,13 +238,13 @@
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-6
                         .tarjeta.p-3.divgeome
-                          p.mb-0.text-center #[b Perímetro = L1 + L2 + b]
-              .col-lg-4
+                          p.mb-0.text-center #[b Perímetro = L#[sub 1] + L#[sub 2] + b]
+              .col-lg-4.col-8
                 figure
                   img(src='@/assets/curso/temas/tema6/img19.svg', alt='Imagen decorativa')            
             
           .tarjeta.color-secundario.p-4(titulo="Rombo")            
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
                 ul.lista-ul
                   li
@@ -254,7 +254,7 @@
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-6
                         .tarjeta.p-3.divgeome
-                          p.mb-0.text-center #[b Área = 1 / 2 × d1 × d2]
+                          p.mb-0.text-center #[b Área = 1 / 2 × d#[sub 1] × d#[sub 2]]
                   li
                     i.fas.fa-angle-right
                     |#[b Perímetro:] es la suma de las longitudes de sus cuatro lados.
@@ -263,12 +263,12 @@
                       .col-lg-5
                         .tarjeta.p-3.divgeome
                           p.mb-0.text-center #[b Perímetro = 4 × L]
-              .col-lg-4
+              .col-lg-4.col-8
                 figure
                   img(src='@/assets/curso/temas/tema6/img22.svg', alt='Imagen decorativa')
             
           .tarjeta.color-secundario.p-4(titulo="Círculo")            
-            .row.justify-content-center.align-items-center.mb-5
+            .row.justify-content-center.align-items-center
               .col-lg-8
                 ul.lista-ul
                   li
@@ -287,7 +287,8 @@
                       .col-lg-5
                         .tarjeta.p-3.divgeome
                           p.mb-0.text-center #[b Perímetro = 𝜋 × 𝑑]
-              .col-lg-4
+                p Recuerde que (𝑑 = 2 × 𝑟), y (𝜋 ≈ 3.1416).
+              .col-lg-4.col-8
                 figure
                   img(src='@/assets/curso/temas/tema6/img25.svg', alt='Imagen decorativa')
             
@@ -300,45 +301,45 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") El concepto de área ya ha sido tratado, y ahora se aborda el volumen. El volumen de un cuerpo geométrico es la medida del espacio que este ocupa, expresada en unidades cúbicas (como metros cúbicos, m³). A continuación, se presentan las fórmulas para calcular el área y el volumen de algunos de los cuerpos geométricos más comunes.
+        p(data-aos="fade-right") El concepto de área ya ha sido tratado, y ahora se aborda el volumen. El volumen de un cuerpo geométrico es la medida del espacio que este ocupa, expresada en unidades cúbicas (como metros cúbicos, m#[sup 3]). A continuación, se presentan las fórmulas para calcular el área y el volumen de algunos de los cuerpos geométricos más comunes.
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in")
       .row(titulo="Cubo")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/temas/tema6/img27.svg', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
-              |#[b Área:] el área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟2.
+              |#[b Área:] un cubo está formado por seis cuadrados iguales.
               p 
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-5
                   .tarjeta.p-3.divgeome
-                    p.mb-0.text-center #[b Área = 4 × 𝜋 × r2]
+                    p.mb-0.text-center #[b Área = 6 × L#[sup 2]]
             li
               i.fas.fa-angle-right
-              |#[b Volumen:] se calcula multiplicando cuatro tercios de 𝜋 por el cubo del radio.
+              |#[b Volumen:] se calcula multiplicando la longitud de uno de sus lados por sí misma tres veces.
               p 
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-5
                   .tarjeta.p-3.divgeome
-                    p.mb-0.text-center #[b Volumen = 4 / 3 × 𝜋 × r3]
+                    p.mb-0.text-center #[b Volumen = L × L × L = L#[sup 3]]
       .row(titulo="Prisma")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/temas/tema6/img30.svg', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
-              |#[b Área:] El área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟2.
+              |#[b Área:] es la suma del área lateral más el área de las dos bases.
               p 
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-8
                   .tarjeta.p-3.divgeome
-                    p.mb-0.text-center #[b Área = Área lateral + 2 × Área de la base2]
+                    p.mb-0.text-center #[b Área = Área lateral + 2 × Área de la base]
             li
               i.fas.fa-angle-right
               |#[b Volumen:] Se calcula multiplicando el área de la base por la altura del prisma.
@@ -348,7 +349,7 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = Área de la base × ℎ]
       .row(titulo="Pirámide")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/temas/tema6/img33.svg', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
@@ -375,7 +376,7 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = 1 / 3 × Área de la base × ℎ]
       .row(titulo="Cono")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/temas/tema6/img37.svg', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
@@ -402,7 +403,7 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = 1 / 3 × Área de la base × h]
       .row(titulo="Cilindro")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/temas/tema6/img41.svg', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
@@ -415,7 +416,7 @@
                 .col-lg-10
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Área lateral = Circunferencia de la base × h]
-              p El área total es la suma del área lateral y el área de la base.
+              p El área total es la suma del área lateral y el área de las bases.
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-10
                   .tarjeta.p-3.divgeome
@@ -429,19 +430,19 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = Área de la base × h]
       .row(titulo="Esfera")
-        .col-md-6
+        .col-lg-6
           figure
             img(src='@/assets/curso/temas/tema6/img45.svg', alt='Texto que describa la imagen')
         .col-md-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
-              |#[b Área:] El área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟2.
+              |#[b Área:] El área de una esfera se calcula usando la fórmula 4 × 𝜋 × 𝑟#[sup 2].
               p 
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-5
                   .tarjeta.p-3.divgeome
-                    p.mb-0.text-center #[b Área = 4 × 𝜋 × r2]
+                    p.mb-0.text-center #[b Área = 4 × 𝜋 × r#[sup 2]]
             li
               i.fas.fa-angle-right
               |#[b Volumen:] Se calcula multiplicando cuatro tercios de 𝜋 por el cubo del radio.
@@ -449,7 +450,7 @@
               .row.justify-content-center.align-items-center.mb-3
                 .col-lg-5
                   .tarjeta.p-3.divgeome
-                    p.mb-0.text-center #[b Volumen = 4 / 3 × 𝜋 × r3]
+                    p.mb-0.text-center #[b Volumen = 4 / 3 × 𝜋 × r#[sup 3]]
 
 </template>
 

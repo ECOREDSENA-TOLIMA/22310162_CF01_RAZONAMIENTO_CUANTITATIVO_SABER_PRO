@@ -88,9 +88,9 @@
 
 //Tema 1
 
-
 .bg--gradientBlue
-  background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
+  background-image: url(../assets/curso/temas/tema1/imgfondo.png) !important
+  //background: linear-gradient(0deg, rgb(229, 245, 252) 0%, rgba(255,255,252,1) 100%)
   margin-inline: -3rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
@@ -104,7 +104,17 @@
   padding: 3rem
   @media (max-width: $bp-max-sm)
     margin-inline: -1.5rem !important
+.bg1-1
+  background-color: #C7E3D7 !important
 
+.pasos-b.color-secundario .pasos-b__header__item--active .pasos-b__header__item__dot
+    border-color: #C7E3D7
+    background-color: #C7E3D7
+.pasos-b.color-secundario .pasos-b__header__item--active .pasos-b__header__item__dot span
+    color: #000000
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #2D4587
+  background-color: #2D4587
 //Tema 2
 .slyder-b-img
   background-image: url(../assets/curso/temas/tema2/imgslyder.png) !important
@@ -294,6 +304,30 @@ i.fas.fa-calculator
   @media (max-width: 1000px)
     display: none
 
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+
 //Tema 4
 //titulos
 .titulo-decorativo
@@ -344,16 +378,24 @@ i.fas.fa-calculator
 //Tema 5
 .bg-img
   background-image: url(../assets/curso/temas/tema5/imgfondo.png) !important
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
 
 .linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
   border: 2px solid #11462E
   background-color: #ffd87e
+
+.slyder-a__bullets__item 
+  background-color: #196442
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
   border: 1px solid #11462E
   background-color: #ffd87e
 .slyder-a__bullets__item--active
   background-color: #ffd87e
   border-color: #11462E
+
 .divformu
   background-color: #C7E3D7
   color: black !important
@@ -368,6 +410,9 @@ li b
     background-color: #C7E3D7
 .tarjeta--tabla:nth-child(even)
     background-color: #D0DBF8
+
+sub, sup
+  color: black !important
 
 .bg-img-tarj
   background-image: url(../assets/curso/temas/tema6/imgfondo.png) !important
@@ -404,4 +449,6 @@ li b
 .divgeomeverde
   background-color: #C7E3D7
   color: black !important
-  
+
+.slyder-f__btn
+   color: #FFD87E
