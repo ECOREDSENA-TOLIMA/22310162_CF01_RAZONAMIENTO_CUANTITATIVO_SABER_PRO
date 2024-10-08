@@ -96,14 +96,14 @@
         .tarjeta.tarjeta--gris.p-4
           PasosB.color-secundario
             .row(titulo="Paso 1")
-              .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
+              .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
                 h4 Identificación de los datos relevantes
                 p Una vez recopilados los datos, se seleccionan aquellos que son más útiles para resolver el problema. Es crucial enfocarse en las variables que están directamente relacionadas con la pregunta o situación planteada.
               .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
                 figure
                   img(src='@/assets/curso/temas/tema1/img6.png', alt='Imagen decorativa')
             .row(titulo="Paso 2")
-              .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
+              .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
                 h4 Organización de los datos
                 P Los datos deben ser clasificados y organizados de manera lógica. Esto puede hacerse a través de tablas, gráficos, o diagramas que faciliten su interpretación visual y resalten patrones o tendencias clave.
                 
@@ -111,7 +111,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img7.png', alt='Imagen decorativa')
             .row(titulo="Paso 3")
-              .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
+              .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
                 h4 Aplicación de herramientas analíticas
                 P En esta fase, se seleccionan y aplican las herramientas cuantitativas necesarias, como fórmulas matemáticas, métodos estadísticos o algoritmos, que permitan procesar y estudiar los datos con rigor.
 
@@ -119,7 +119,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img8.png', alt='Imagen decorativa')
             .row(titulo="Paso 4")
-              .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
+              .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
                 h4 Interpretación de los resultados
                 p Los resultados obtenidos deben ser interpretados en función del problema original. En esta etapa se identifican relaciones o tendencias que ofrezcan una solución clara y justificada para la situación o problema planteado.
 
@@ -127,7 +127,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img9.png', alt='Imagen decorativa')
             .row(titulo="Paso 5")
-              .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
+              .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
                 h4 Verificación de coherencia
                 p Es importante revisar si los resultados obtenidos son consistentes con las hipótesis iniciales y con los objetivos del problema. Si existen inconsistencias o errores, es necesario reconsiderar los procedimientos aplicados.
 
@@ -135,7 +135,7 @@
                 figure
                   img(src='@/assets/curso/temas/tema1/img10.png', alt='Imagen decorativa')
             .row(titulo="Paso 6")
-              .col-md-6.mb-4.mb-md-0.order-lg-1.order-2
+              .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
                 h4 Derivación de conclusiones
                 p Finalmente, se extraen conclusiones a partir del análisis. Estas conclusiones deben estar alineadas con la información analizada y deben ayudar a validar o modificar las soluciones propuestas en función de los resultados obtenidos (Ruiz, 2019). 
               .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")

@@ -76,9 +76,9 @@
               .titulo-sexto.color-acento-contenido.offset-0
                 h5 Tabla 1.
                 span  #[i  Casa pintada ]
-              .row.justify-content-center.align-items-center.mb-5
+              .row.justify-content-center.align-items-center
                   .col-lg-6
-                  .tabla.mb-5
+                  .tabla.mb-3
                     table
                       thead
                         tr
@@ -94,7 +94,7 @@
                 li
                   i.fas.fa-angle-right
                   | Para determinar la cantidad de pintura necesaria, se realiza la siguiente operación:
-              .row.justify-content-center.align-items-center.mb-5
+              .row.justify-content-center.align-items-center
                 .col-lg-6
                   figure
                     img(src='@/assets/curso/temas/tema4/img5.svg', alt='Imagen decorativa')

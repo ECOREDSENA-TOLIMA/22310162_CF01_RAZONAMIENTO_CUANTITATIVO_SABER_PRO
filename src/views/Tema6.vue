@@ -305,10 +305,10 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in")
       .row(titulo="Cubo")
-        .col-lg-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/temas/tema6/img27.svg', alt='Texto que describa la imagen')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -327,10 +327,10 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = L × L × L = L#[sup 3]]
       .row(titulo="Prisma")
-        .col-lg-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/temas/tema6/img30.svg', alt='Texto que describa la imagen')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -349,10 +349,10 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = Área de la base × ℎ]
       .row(titulo="Pirámide")
-        .col-lg-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/temas/tema6/img33.svg', alt='Texto que describa la imagen')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -376,10 +376,10 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = 1 / 3 × Área de la base × ℎ]
       .row(titulo="Cono")
-        .col-lg-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/temas/tema6/img37.svg', alt='Texto que describa la imagen')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -403,10 +403,10 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = 1 / 3 × Área de la base × h]
       .row(titulo="Cilindro")
-        .col-lg-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/temas/tema6/img41.svg', alt='Texto que describa la imagen')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right
@@ -430,10 +430,10 @@
                   .tarjeta.p-3.divgeome
                     p.mb-0.text-center #[b Volumen = Área de la base × h]
       .row(titulo="Esfera")
-        .col-lg-6
+        .col-lg-6.mb-3
           figure
             img(src='@/assets/curso/temas/tema6/img45.svg', alt='Texto que describa la imagen')
-        .col-md-6.mb-4.mb-md-0
+        .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
               i.fas.fa-angle-right

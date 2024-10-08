@@ -15,12 +15,11 @@
     TabsB.color-acento-botones.mb-5
       .py-4.py-99.py-md-5(titulo="Definición de alternativas" :icono="require('@/assets/curso/temas/tema3/img1.svg')")
         .row.justify-content-center.align-items-center
-          .col-lg-4.col-8.mb-lg-0.mb-4
+          .col-lg-4.col-8.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img6.png', alt='Imagen decorativa')
 
-          .col-lg-7
-            h4
+          .col-lg-7.p-5
             p Identificar las diferentes opciones disponibles para abordar el problema. Cada alternativa debe ser una solución viable que cumpla con los requisitos del problema y pueda ser aplicada eficazmente.
           
       .py-4.py-99.py-md-5(titulo="Establecimiento de criterios" :icono="require('@/assets/curso/temas/tema3/img2.svg')")
@@ -29,8 +28,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img7.png', alt='Imagen decorativa')
 
-          .col-lg-7
-            h4
+          .col-lg-7.p-5
             p Definir criterios claros para evaluar cada alternativa. Estos criterios pueden incluir la precisión, la eficiencia, la aplicabilidad y la facilidad de implementación.
           
       .py-4.py-99.py-md-5(titulo="Evaluación de opciones" :icono="require('@/assets/curso/temas/tema3/img3.svg')")
@@ -39,8 +37,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img8.png', alt='Imagen decorativa')
 
-          .col-lg-7
-            h4
+          .col-lg-7.p-5
             p Analizar cada alternativa en función de los criterios establecidos. Considerar las ventajas y desventajas de cada opción y cómo se ajusta al contexto del problema.
           
       .py-4.py-99.py-md-5(titulo="Selección de la mejor alternativa" :icono="require('@/assets/curso/temas/tema3/img4.svg')")
@@ -49,8 +46,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img9.png', alt='Imagen decorativa')
 
-          .col-lg-7
-            h4
+          .col-lg-7.p-5
             p Elegir la alternativa que mejor cumpla con los criterios y que ofrezca la solución más adecuada para el problema. Asegurarse de que la alternativa seleccionada sea viable y efectiva para lograr el objetivo deseado.
           
       .py-4.py-99.py-md-5(titulo="Aplicación de herramientas y procedimientos" :icono="require('@/assets/curso/temas/tema3/img5.svg')")
@@ -59,8 +55,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema3/img10.png', alt='Imagen decorativa')
 
-          .col-lg-7
-            h4
+          .col-lg-7.p-5
             p Implementar la alternativa seleccionada utilizando las herramientas y procedimientos adecuados. Esto incluye realizar cálculos, aplicar fórmulas y seguir pasos específicos para llegar a una solución precisa.
           
 
@@ -111,7 +106,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema3/img14.png" alt="Imagen decorativa Recopilación de datos")
-          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #FFD87E")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -123,7 +118,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema3/img15.png" alt="Imagen decorativa Organización estructurada")
-          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #FFD87E")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
@@ -136,7 +131,7 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema3/img16.png" alt="Imagen decorativa Documentación de procedimientos")
-          .crd_hover_txt--body.w-100(style="background-color: #F0D9E4")
+          .crd_hover_txt--body.w-100(style="background-color: #FFD87E")
             .title.d-flex.align-items-center.justify-content-center.mb-3
               span
                 i.fas.fa-caret-up.fa-2x.me-3
