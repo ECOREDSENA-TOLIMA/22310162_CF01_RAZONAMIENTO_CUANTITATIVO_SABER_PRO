@@ -238,14 +238,6 @@ export default {
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=jBy0s72XiAo',
     },
-    {
-      tema: '7. Solución de problemas matemáticos y geométricos',
-      referencia:
-        'Ministerio de Educación Nacional de Colombia. (2023). Modulo Razonamiento Cuantitativo Saber Pro y Saber TyT [PDF].',
-      tipo: 'Página web',
-      link:
-        'https://www.icfes.gov.co/wp-content/uploads/2024/09/Descargue-AQUI%CC%81-el-marco-de-referencia-Razonamiento-Cuantitativo-Saber-Pro.pdf',
-    },
   ],
   glosario: [
     {
@@ -310,7 +302,7 @@ export default {
     },
     {
       referencia: 'Estrategia de estudio (Método POLYA). (n.d.). YouTube.',
-      link: 'https://www.youtube.com/watch?v=-919CQtH2H2w',
+      link: 'https://www.youtube.com/watch?v=919CQtH2H2w',
     },
     {
       referencia:

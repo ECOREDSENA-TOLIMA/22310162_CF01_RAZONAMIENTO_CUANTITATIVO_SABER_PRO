@@ -25,7 +25,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p(data-aos="fade-right") Esta sección se centra en el estudio de una estrategia específica para la resolución de problemas de matemáticas básicas. El proceso involucra las siguientes acciones: interpretar, plantear, resolver y solucionar situaciones. Es fundamental entender que un problema debe caracterizarse claramente para facilitar su planteamiento, el cual debe ser preciso y orientado a un resultado concreto.
-        p(data-aos="fade-right") Los pasos clave en la construcción de una estrategia efectiva incluyen :
+        p(data-aos="fade-right") Los pasos clave en la construcción de una estrategia efectiva incluyen:
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in")
       .col-lg-10.desktop
@@ -194,7 +194,7 @@
                           p.mb-0.text-center #[b Perímetro = 4 × L]
               .col-lg-4.col-8
                 figure
-                  img(src='@/assets/curso/temas/tema6/img13.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema6/img13.svg', alt=' Se presenta el cuadrado con lados etiquetados como “L” en la parte superior y derecha, representando la longitud de sus lados.')
           .tarjeta.color-secundario.p-4(titulo="Rectángulo")            
             .row.justify-content-center.align-items-center
               .col-lg-8
@@ -217,7 +217,7 @@
                           p.mb-0.text-center #[b Perímetro = 2 × (L#[sub 1] + L#[sub 2])]
               .col-lg-4.col-8
                 figure
-                  img(src='@/assets/curso/temas/tema6/img16.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema6/img16.svg', alt='Se presenta el rectángulo con el lado superior etiquetado como “L1” y el lado izquierdo como “L2”, indicando las longitudes de sus lados.')
             
           .tarjeta.color-secundario.p-4(titulo="Triángulo")            
             .row.justify-content-center.align-items-center
@@ -241,7 +241,7 @@
                           p.mb-0.text-center #[b Perímetro = L#[sub 1] + L#[sub 2] + b]
               .col-lg-4.col-8
                 figure
-                  img(src='@/assets/curso/temas/tema6/img19.svg', alt='Imagen decorativa')            
+                  img(src='@/assets/curso/temas/tema6/img19.svg', alt='Se presenta el triángulo con lados etiquetados como “L1” y “L2”, y base etiquetada como “b”. Una línea punteada marca la altura del triángulo, etiquetada como “h”, desde el vértice superior hasta la base.')            
             
           .tarjeta.color-secundario.p-4(titulo="Rombo")            
             .row.justify-content-center.align-items-center
@@ -265,7 +265,7 @@
                           p.mb-0.text-center #[b Perímetro = 4 × L]
               .col-lg-4.col-8
                 figure
-                  img(src='@/assets/curso/temas/tema6/img22.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema6/img22.svg', alt='Se presenta un rombo con sus cuatro lados etiquetados como “L”. Dentro del rombo, se representan las dos diagonales, etiquetadas como “d1” y “d2”, que se cruzan en el centro.')
             
           .tarjeta.color-secundario.p-4(titulo="Círculo")            
             .row.justify-content-center.align-items-center
@@ -290,7 +290,7 @@
                 p Recuerde que (𝑑 = 2 × 𝑟), y (𝜋 ≈ 3.1416).
               .col-lg-4.col-8
                 figure
-                  img(src='@/assets/curso/temas/tema6/img25.svg', alt='Imagen decorativa')
+                  img(src='@/assets/curso/temas/tema6/img25.svg', alt='Se presenta el círculo con una línea que va desde el centro hasta el borde, etiquetada como “r” para el radio, y una línea que cruza todo el círculo pasando por el centro, etiquetada como “d” para el diámetro.')
             
 
 
@@ -307,7 +307,7 @@
       .row(titulo="Cubo")
         .col-lg-6.mb-3
           figure
-            img(src='@/assets/curso/temas/tema6/img27.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img27.svg', alt='Se presenta un cubo que está formado por seis cuadrados iguales.')
         .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
@@ -329,7 +329,7 @@
       .row(titulo="Prisma")
         .col-lg-6.mb-3
           figure
-            img(src='@/assets/curso/temas/tema6/img30.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img30.svg', alt='Se presenta un prisma con una base rectangular, donde se indican las etiquetas de “base” para las superficies inferior y superior, “altura” para la distancia entre ambas bases, y “cara lateral” para las superficies que conectan las bases.')
         .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
@@ -351,7 +351,7 @@
       .row(titulo="Pirámide")
         .col-lg-6.mb-3
           figure
-            img(src='@/assets/curso/temas/tema6/img33.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img33.svg', alt='Se presenta una pirámide con una línea vertical desde el vértice superior hasta la base, ubicada en el centro, etiquetada como “h” para indicar la altura de la pirámide.')
         .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
@@ -378,7 +378,7 @@
       .row(titulo="Cono")
         .col-lg-6.mb-3
           figure
-            img(src='@/assets/curso/temas/tema6/img37.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img37.svg', alt='Se presenta un cono tridimensional con la letra “h” situada en su base central, representando la geometría combinada con un símbolo alfanumérico.')
         .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
@@ -405,7 +405,7 @@
       .row(titulo="Cilindro")
         .col-lg-6.mb-3
           figure
-            img(src='@/assets/curso/temas/tema6/img41.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img41.svg', alt='Se presenta un cilindro tridimensional con la letra “h” ubicada en su eje central, simbolizando la combinación de forma geométrica y el carácter alfanumérico en su interior.')
         .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li
@@ -432,7 +432,7 @@
       .row(titulo="Esfera")
         .col-lg-6.mb-3
           figure
-            img(src='@/assets/curso/temas/tema6/img45.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/temas/tema6/img45.svg', alt='Se presenta una esfera tridimensional con la letra “r” ubicada en su centro, representando la forma geométrica esférica combinada con un símbolo alfanumérico en su interior.')
         .col-lg-6.mb-4.mb-md-0
           ul.lista-ul
             li

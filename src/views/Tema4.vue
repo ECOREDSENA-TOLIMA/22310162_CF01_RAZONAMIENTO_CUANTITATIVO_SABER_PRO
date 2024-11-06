@@ -97,7 +97,7 @@
               .row.justify-content-center.align-items-center
                 .col-lg-6
                   figure
-                    img(src='@/assets/curso/temas/tema4/img5.svg', alt='Imagen decorativa')
+                    img(src='@/assets/curso/temas/tema4/img5.svg', alt='En la fórmula se utiliza "X" para calcular la cantidad de pintura necesaria, dividiendo el área total en metros cuadrados (480 m²) entre el rendimiento de la pintura, que cubre 6 metros cuadrados por litro. Esto da como resultado la cantidad de litros requeridos, en este caso, 80 litros.')
       .col-lg-10
         .tarjeta-avatar-b.mb-5
           .tarjeta-avatar-b__img

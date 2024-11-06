@@ -32,7 +32,7 @@
                 ul.lista-ul
                   li
                     i.fas.fa-angle-right
-                    |#[b Pregunta:] ¿cuál es la probabilidad de que al tirar un dado se obtenga un 3?.
+                    |#[b Pregunta:] ¿cuál es la probabilidad de que al tirar un dado se obtenga un 3?
                   li
                     i.fas.fa-angle-right
                     |#[b Solución:] como se trata de un caso de probabilidad simple, se debe aplicar la siguiente fórmula:
@@ -41,7 +41,7 @@
                       .col-lg-8
                         .tarjeta.p-3.divgeome
                           figure
-                            img(src='@/assets/curso/temas/tema7/img3.svg', alt='Imagen decorativa')
+                            img(src='@/assets/curso/temas/tema7/img3.svg', alt='Se presenta la probabilidad de que ocurra un evento, se calcula dividiendo el número de veces que dicho evento sucede entre el número total de resultados posibles. Esta fórmula expresa cómo se determina la posibilidad de un evento en función de los resultados favorables y los posibles resultados totales en un experimento aleatorio.')
                     p En este caso, el número total de posibles resultados al lanzar un dado es 6 (ya que el dado tiene 6 caras). El evento que estamos analizando es obtener un 3, que solo ocurre en una de las 6 caras.
                     p Entonces, la probabilidad es:
                     p 
@@ -49,7 +49,7 @@
                       .col-lg-8
                         .tarjeta.p-3.divgeome
                           figure
-                            img(src='@/assets/curso/temas/tema7/img4.svg', alt='Imagen decorativa')
+                            img(src='@/assets/curso/temas/tema7/img4.svg', alt='Se presenta la probabilidad de que ocurra un evento con 1 de 6 resultados posibles es igual a 1/6, lo que se aproxima a 0.1667 o aproximadamente 16.67 %. Esto indica que, en un experimento con 6 resultados igualmente probables, la probabilidad de que ocurra uno específico es de 16.67 %')
                     p Por lo tanto, la probabilidad de obtener un 3 al lanzar un dado es 0.1667.
 
       
@@ -201,8 +201,8 @@
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-4
                         .tarjeta.p-1.divgeomeverde
-                          p.mb-0.text-center #[b C = 𝜋 × 6cm = 6 𝜋 cm]
-                    p El área del círculo se calcula con la fórmula A = 𝜋 × r#[sup 2], donde r es el radio. Como el diámetro es 6 cm, el radio es r = 3cm:
+                          p.mb-0.text-center #[b C = 𝜋 × 6 cm = 6 𝜋 cm]
+                    p El área del círculo se calcula con la fórmula A = 𝜋 × r#[sup 2], donde r es el radio. Como el diámetro es 6 cm, el radio es r = 3 cm:
                     p 
                     .row.justify-content-center.align-items-center.mb-3
                       .col-lg-4
